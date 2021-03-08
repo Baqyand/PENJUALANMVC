@@ -123,7 +123,7 @@ public class barangView extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(102, 153, 255));
 
-        jPanel2.setBackground(new java.awt.Color(53, 53, 53));
+        jPanel2.setBackground(new java.awt.Color(0, 51, 102));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 26)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 204, 204));
@@ -167,23 +167,20 @@ public class barangView extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(204, 204, 204));
         jLabel3.setText("Nama Barang");
 
-        txt_namaBarang.setBackground(new java.awt.Color(53, 53, 53));
-        txt_namaBarang.setForeground(new java.awt.Color(255, 255, 255));
+        txt_namaBarang.setForeground(new java.awt.Color(53, 53, 53));
 
         jLabel4.setForeground(new java.awt.Color(204, 204, 204));
         jLabel4.setText("Jumlah");
 
-        txt_jumlahBarang.setBackground(new java.awt.Color(53, 53, 53));
-        txt_jumlahBarang.setForeground(new java.awt.Color(255, 255, 255));
+        txt_jumlahBarang.setForeground(new java.awt.Color(53, 53, 53));
 
         jLabel5.setForeground(new java.awt.Color(204, 204, 204));
         jLabel5.setText("Harga");
 
-        txt_hargaBarang.setBackground(new java.awt.Color(53, 53, 53));
-        txt_hargaBarang.setForeground(new java.awt.Color(255, 255, 255));
+        txt_hargaBarang.setForeground(new java.awt.Color(53, 53, 53));
 
-        btn_tambah.setBackground(new java.awt.Color(14, 14, 14));
-        btn_tambah.setForeground(new java.awt.Color(204, 204, 204));
+        btn_tambah.setBackground(new java.awt.Color(102, 204, 255));
+        btn_tambah.setForeground(new java.awt.Color(53, 53, 53));
         btn_tambah.setText("Tambah");
         btn_tambah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,7 +188,7 @@ public class barangView extends javax.swing.JFrame {
             }
         });
 
-        tbl_barang.setBackground(new java.awt.Color(53, 53, 53));
+        tbl_barang.setForeground(new java.awt.Color(53, 53, 53));
         tbl_barang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -205,8 +202,8 @@ public class barangView extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_barang);
 
-        btn_hapus.setBackground(new java.awt.Color(14, 14, 14));
-        btn_hapus.setForeground(new java.awt.Color(204, 204, 204));
+        btn_hapus.setBackground(new java.awt.Color(255, 0, 51));
+        btn_hapus.setForeground(new java.awt.Color(53, 53, 53));
         btn_hapus.setText("Hapus");
         btn_hapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,8 +211,8 @@ public class barangView extends javax.swing.JFrame {
             }
         });
 
-        btn_ubah.setBackground(new java.awt.Color(14, 14, 14));
-        btn_ubah.setForeground(new java.awt.Color(204, 204, 204));
+        btn_ubah.setBackground(new java.awt.Color(153, 153, 255));
+        btn_ubah.setForeground(new java.awt.Color(53, 53, 53));
         btn_ubah.setText("Ubah");
         btn_ubah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,8 +220,7 @@ public class barangView extends javax.swing.JFrame {
             }
         });
 
-        txt_kodeBarang.setBackground(new java.awt.Color(53, 53, 53));
-        txt_kodeBarang.setForeground(new java.awt.Color(255, 255, 255));
+        txt_kodeBarang.setForeground(new java.awt.Color(53, 53, 53));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -240,26 +236,30 @@ public class barangView extends javax.swing.JFrame {
                             .addComponent(jLabel5)
                             .addComponent(jLabel2))
                         .addGap(43, 43, 43)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txt_hargaBarang, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(txt_jumlahBarang, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(txt_namaBarang)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(btn_tambah, javax.swing.GroupLayout.DEFAULT_SIZE, 371, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btn_ubah)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btn_hapus))
-                            .addComponent(txt_kodeBarang)))
+                                .addComponent(btn_tambah, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(414, 414, 414))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(txt_hargaBarang, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE)
+                                .addComponent(txt_jumlahBarang, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txt_namaBarang, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txt_kodeBarang, javax.swing.GroupLayout.Alignment.LEADING))))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 634, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 39, Short.MAX_VALUE))
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn_ubah)
+                .addGap(18, 18, 18)
+                .addComponent(btn_hapus)
+                .addGap(32, 32, 32))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txt_kodeBarang, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
@@ -276,13 +276,14 @@ public class barangView extends javax.swing.JFrame {
                     .addComponent(txt_hargaBarang, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5))
                 .addGap(26, 26, 26)
+                .addComponent(btn_tambah)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_tambah)
                     .addComponent(btn_ubah)
                     .addComponent(btn_hapus))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20))
+                .addGap(44, 44, 44))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

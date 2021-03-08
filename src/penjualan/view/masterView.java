@@ -49,7 +49,7 @@ public class masterView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel2.setBackground(new java.awt.Color(53, 53, 53));
+        jPanel2.setBackground(new java.awt.Color(0, 51, 102));
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         lblHome.setForeground(new java.awt.Color(204, 204, 204));
@@ -75,7 +75,7 @@ public class masterView extends javax.swing.JFrame {
         });
 
         jLabel4.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/laporan.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/laporan.JPG"))); // NOI18N
         jLabel4.setText("LAPORAN");
 
         jLabel5.setForeground(new java.awt.Color(204, 204, 204));
@@ -83,29 +83,29 @@ public class masterView extends javax.swing.JFrame {
         jLabel5.setText(" HELP");
 
         jLabel7.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/logout.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/logout_1.png"))); // NOI18N
         jLabel7.setText("LOGOUT");
 
         jPanel3.setBackground(new java.awt.Color(102, 153, 255));
 
         jPanel4.setBackground(new java.awt.Color(53, 53, 53));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(250, 110, 21), 2, true), "INPUT DATA", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Dialog", 1, 18), new java.awt.Color(250, 110, 21))); // NOI18N
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(53, 53, 53), 2, true), "INPUT DATA", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Dialog", 1, 18))); // NOI18N
         jPanel4.setForeground(new java.awt.Color(53, 53, 53));
 
-        btn_pelanggan.setBackground(new java.awt.Color(22, 22, 22));
-        btn_pelanggan.setForeground(new java.awt.Color(102, 153, 255));
+        btn_pelanggan.setBackground(new java.awt.Color(255, 255, 255));
+        btn_pelanggan.setForeground(new java.awt.Color(53, 53, 53));
         btn_pelanggan.setText("PELANGGAN");
-        btn_pelanggan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(250, 110, 21), 4));
+        btn_pelanggan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(53, 53, 53), 4));
         btn_pelanggan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_pelangganActionPerformed(evt);
             }
         });
 
-        btn_barang.setBackground(new java.awt.Color(22, 22, 22));
-        btn_barang.setForeground(new java.awt.Color(102, 153, 255));
+        btn_barang.setBackground(new java.awt.Color(255, 255, 255));
+        btn_barang.setForeground(new java.awt.Color(53, 53, 53));
         btn_barang.setText("BARANG");
-        btn_barang.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(250, 110, 21), 4));
+        btn_barang.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(53, 53, 53), 4));
         btn_barang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_barangActionPerformed(evt);
@@ -145,7 +145,7 @@ public class masterView extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(189, 189, 189)
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(102, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -162,32 +162,31 @@ public class masterView extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(22, 22, 22)
                 .addComponent(lblHome, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblTransaksi, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
+                .addGap(42, 42, 42)
                 .addComponent(jLabel4)
-                .addGap(48, 48, 48)
+                .addGap(30, 30, 30)
                 .addComponent(jLabel5)
-                .addGap(41, 41, 41)
+                .addGap(32, 32, 32)
                 .addComponent(jLabel7)
-                .addGap(32, 32, 32))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(lblHome)
-                        .addComponent(jLabel1)
-                        .addComponent(jLabel5)
-                        .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblTransaksi))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblHome)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblTransaksi)
                     .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

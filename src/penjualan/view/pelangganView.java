@@ -149,20 +149,16 @@ public class pelangganView extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(204, 204, 204));
         jLabel6.setText("No Telphone");
 
-        txtIdPelanggan.setBackground(new java.awt.Color(53, 53, 53));
-        txtIdPelanggan.setForeground(new java.awt.Color(255, 255, 255));
+        txtIdPelanggan.setForeground(new java.awt.Color(53, 53, 53));
 
-        txtNama.setBackground(new java.awt.Color(53, 53, 53));
-        txtNama.setForeground(new java.awt.Color(255, 255, 255));
+        txtNama.setForeground(new java.awt.Color(53, 53, 53));
 
-        txtalamat.setBackground(new java.awt.Color(53, 53, 53));
-        txtalamat.setForeground(new java.awt.Color(255, 255, 255));
+        txtalamat.setForeground(new java.awt.Color(53, 53, 53));
 
-        txtnotlp.setBackground(new java.awt.Color(53, 53, 53));
-        txtnotlp.setForeground(new java.awt.Color(255, 255, 255));
+        txtnotlp.setForeground(new java.awt.Color(53, 53, 53));
 
-        radioLakilaki.setBackground(new java.awt.Color(53, 53, 53));
-        radioLakilaki.setForeground(new java.awt.Color(204, 204, 204));
+        radioLakilaki.setBackground(new java.awt.Color(255, 255, 255));
+        radioLakilaki.setForeground(new java.awt.Color(53, 53, 53));
         radioLakilaki.setText("Laki - Laki");
         radioLakilaki.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,8 +166,8 @@ public class pelangganView extends javax.swing.JFrame {
             }
         });
 
-        radioPerempuan.setBackground(new java.awt.Color(53, 53, 53));
-        radioPerempuan.setForeground(new java.awt.Color(204, 204, 204));
+        radioPerempuan.setBackground(new java.awt.Color(255, 255, 255));
+        radioPerempuan.setForeground(new java.awt.Color(53, 53, 53));
         radioPerempuan.setText("Perempuan");
         radioPerempuan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,8 +175,7 @@ public class pelangganView extends javax.swing.JFrame {
             }
         });
 
-        tablePelanggan.setBackground(new java.awt.Color(53, 53, 53));
-        tablePelanggan.setForeground(new java.awt.Color(204, 204, 204));
+        tablePelanggan.setForeground(new java.awt.Color(53, 53, 53));
         tablePelanggan.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -194,8 +189,8 @@ public class pelangganView extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tablePelanggan);
 
-        btnTambah.setBackground(new java.awt.Color(14, 14, 14));
-        btnTambah.setForeground(new java.awt.Color(204, 204, 204));
+        btnTambah.setBackground(new java.awt.Color(51, 204, 255));
+        btnTambah.setForeground(new java.awt.Color(53, 53, 53));
         btnTambah.setText("Tambah");
         btnTambah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,8 +198,8 @@ public class pelangganView extends javax.swing.JFrame {
             }
         });
 
-        btnUbah.setBackground(new java.awt.Color(14, 14, 14));
-        btnUbah.setForeground(new java.awt.Color(204, 204, 204));
+        btnUbah.setBackground(new java.awt.Color(102, 153, 255));
+        btnUbah.setForeground(new java.awt.Color(53, 53, 53));
         btnUbah.setText("Ubah");
         btnUbah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,8 +207,8 @@ public class pelangganView extends javax.swing.JFrame {
             }
         });
 
-        btnHapus.setBackground(new java.awt.Color(14, 14, 14));
-        btnHapus.setForeground(new java.awt.Color(204, 204, 204));
+        btnHapus.setBackground(new java.awt.Color(255, 0, 51));
+        btnHapus.setForeground(new java.awt.Color(53, 53, 53));
         btnHapus.setText("Hapus");
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,7 +216,7 @@ public class pelangganView extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(53, 53, 53));
+        jPanel2.setBackground(new java.awt.Color(0, 51, 102));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 26)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 204, 204));
@@ -266,30 +261,33 @@ public class pelangganView extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2)
-                            .addComponent(jLabel6)
                             .addComponent(jLabel4)
                             .addComponent(jLabel3)
                             .addComponent(jLabel5))
                         .addGap(35, 35, 35)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtalamat, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(radioLakilaki, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(radioPerempuan, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 0, Short.MAX_VALUE))
-                                    .addComponent(btnTambah, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btnUbah)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btnHapus))
-                            .addComponent(txtIdPelanggan)
-                            .addComponent(txtNama)
-                            .addComponent(txtnotlp)))
+                                .addComponent(radioLakilaki, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(radioPerempuan, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(btnTambah, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtIdPelanggan, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtNama, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(txtalamat, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtnotlp, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 634, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(51, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnUbah)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnHapus)
+                .addGap(49, 49, 49))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -308,22 +306,30 @@ public class pelangganView extends javax.swing.JFrame {
                     .addComponent(jLabel5)
                     .addComponent(radioLakilaki)
                     .addComponent(radioPerempuan))
-                .addGap(22, 22, 22)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(25, 25, 25)
+                                .addComponent(jLabel4))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(24, 24, 24)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel6)
+                                    .addComponent(txtnotlp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(103, 103, 103))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtalamat, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(16, 16, 16)
+                        .addComponent(btnTambah)
+                        .addGap(18, 18, 18)))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtalamat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4))
-                .addGap(16, 16, 16)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtnotlp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnTambah)
                     .addComponent(btnUbah)
                     .addComponent(btnHapus))
-                .addGap(28, 28, 28)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
